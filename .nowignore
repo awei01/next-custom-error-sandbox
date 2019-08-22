@@ -1,0 +1,12 @@
+# Next generated
+.next
+out
+
+# Node
+node_modules
+
+# Git
+.gitignore
+
+# Readme
+readme.md

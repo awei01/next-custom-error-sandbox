@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "next-custom-error-sandbox",
+  "public": true,
+  "builds": [
+    { "src": "package.json", "use": "@now/next" }
+  ]
+}
