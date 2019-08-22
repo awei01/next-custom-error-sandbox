@@ -1,8 +1,8 @@
 const React = require('react')
 const Nav = require('./Nav')
+const NextError = require('next/error').default
 
 function ErrorPage (props) {
-  console.log (props.message)
   return (
     <div>
       <Nav />
@@ -11,9 +11,10 @@ function ErrorPage (props) {
     </div>
   )
 }
-ErrorPage.getInitialProps = function (appContext) {
-  console.log('ErrorPage', appContext)
-  return {}
+ErrorPage.getInitialProps = function (ctx) {
+  // console.log('ErrorPage')
+  // console.log(ctx)
+  return Promise.resolve(NextError.getInitialProps(ctx))
 }
 
 module.exports = ErrorPage

@@ -13,6 +13,8 @@ module.exports = function () {
         <a href='/random-error'>Random Error</a>
         {' | '}
         <a href='/js-error'>JS Error</a>
+        {' | '}
+        <a href='/non-existent-url'>404 Error</a>
       </div>
       <div>
         <h2>Next Link components</h2>
@@ -23,6 +25,8 @@ module.exports = function () {
         <Link href='/random-error'><a>Random Error</a></Link>
         {' | '}
         <Link href='/js-error'><a>JS Error</a></Link>
+        {' | '}
+        <Link href='/none-existent-url'><a>404 Error</a></Link>
       </div>
     </div>
   )
