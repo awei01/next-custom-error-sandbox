@@ -5,7 +5,8 @@ module.exports = function () {
   return (
     <div>
       <div>
-        <h2>A tags</h2>
+        <a href='https://github.com/awei01/next-custom-error-sandbox'>git repo</a>
+        <h2>Using anchor tags</h2>
         <a href='/'>Home</a>
         {' | '}
         <a href='/auth'>Auth</a>
@@ -17,7 +18,7 @@ module.exports = function () {
         <a href='/non-existent-url'>404 Error</a>
       </div>
       <div>
-        <h2>Next Link components</h2>
+        <h2>using Next Link components</h2>
         <Link href='/'><a>Home</a></Link>
         {' | '}
         <Link href='/auth'><a>Auth</a></Link>
